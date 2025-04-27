@@ -29,7 +29,7 @@ You can customize how files are parsed or embedded based on your model's require
 
 Installation
 Step 1: Clone the GitHub Repo
-    git clone https://github.com/yourusername/ollama-frontend.git
+    git clone https://github.com/HarishGowda-Git/Ollama-Frontend.git
 
 Step 2: Open the Project folder
     cd ollama-frontend
