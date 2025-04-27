@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Frontend React Application for Ollama models
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🧠 Ollama Frontend Interface
+A modern, interactive React app that connects with Ollama models, providing an enhanced user experience with file upload capabilities.
+Easily send files to models for more dynamic and rich interactions!
 
-## Available Scripts
+✨ Features
+🔥 Connect to any Ollama model (local or remote)
+📂 Upload files (PDF, TXT, CSV, etc.) to use as model context
+🧩 Dynamic input options: text, prompts, and file attachments
+🎨 Beautiful UI built with TailwindCSS (or your framework)
+⚡ Fast and responsive frontend performance
+📡 API integration with Ollama's local server
+🛠️ Easy to configure and extend
 
-In the project directory, you can run:
+🚀 Getting Started
+Prerequisites
+Node.js (>=18.x)
+Yarn or npm
+Running Ollama server (local or cloud)
 
-### `npm start`
+🖇️ File Upload Details
+Files uploaded are sent along with your prompt to the Ollama model.
+Supported file types: PDF, TXT, CSV (easy to extend to others).
+Files are either:
+Preprocessed client-side (e.g., extract text)
+Or sent directly to the backend if server-side processing is needed.
+You can customize how files are parsed or embedded based on your model's requirements.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation
+Step 1: Clone the GitHub Repo
+    git clone https://github.com/yourusername/ollama-frontend.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step 2: Open the Project folder
+    cd ollama-frontend
 
-### `npm test`
+Step 3: Install the required dependencies
+    npm install
+    #or
+    yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Step 4: Run the Ollama 
 
-### `npm run build`
+Step 5: Run the Fronten React App
+    npm run dev
+    # or
+    yarn dev
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📡 How it Works
+User types a prompt and optionally uploads files.
+Frontend sends the prompt + file (parsed or as raw) to the Ollama API.
+Ollama model processes the input and responds.
+Response is displayed interactively in the chat interface.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🤝 Contributing
+Pull requests and issues are welcome!
+If you have ideas for improvements or new features, feel free to open a PR.
 
-### `npm run eject`
+📄 License
+MIT License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ to unlock the full potential of Ollama models 🚀
